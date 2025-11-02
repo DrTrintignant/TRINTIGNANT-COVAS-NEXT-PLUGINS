@@ -1,262 +1,194 @@
-\# Covasify v2.0.0
+# Covinance v7.6
 
+Voice-controlled commodity trading and market analysis for Elite Dangerous via COVAS NEXT using the Ardent API. Real-time market data, route planning, and rare goods discovery.
 
+## What It Does
 
-Voice-controlled Spotify integration for COVAS NEXT. Play music, control playback, and bind tracks to custom voice commands.
+- Find best commodity prices galaxy-wide or within radius
+- Calculate profitable trade routes (single-hop, circular, multi-commodity)
+- Discover rare goods and their stations
+- Locate services (markets, outfitting, shipyard, Interstellar Factors)
+- Auto-detect ship constraints from Journal (cargo, pad size, jump range)
+- Smart commodity name mapping (100+ aliases for voice queries)
+- Safe bounty clearing (Anarchy/Low security systems)
 
+## Installation
 
+1. Place the `Covinance` folder in: `%appdata%\com.covas-next.ui\plugins\`
 
-\## What It Does
+2. Restart COVAS NEXT
 
+3. Test with: "Test Covinance"
 
+**No API key required** - Uses Ardent Insight API for Elite Dangerous market data.
 
-\- Play tracks, albums, artists, and playlists by voice
+## Voice Commands
 
-\- Control playback (pause, skip, seek, volume, shuffle, repeat)
-
-\- Save tracks to your Liked Songs
-
-\- \*\*Bind tracks to custom phrases\*\* - Say "workout intro" to instantly play your bound track
-
-\- Get current track info
-
-
-
-\## Installation
-
-
-
-\### 1. Get Spotify API Credentials
-
-
-
-1\. Go to \[Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
-
-2\. Create an app with these settings:
-
-&nbsp;  - \*\*Redirect URI\*\*: `http://127.0.0.1:8888/callback`
-
-3\. Copy your \*\*Client ID\*\* and \*\*Client Secret\*\*
-
-
-
-\### 2. Install Plugin
-
-
-
-1\. Place the `Covasify` folder in: `%appdata%\\com.covas-next.ui\\plugins\\`
-
-
-
-2\. Restart COVAS NEXT
-
-
-
-3\. Open COVAS NEXT menu → Navigate to \*\*Covasify Spotify Integration\*\* settings
-
-
-
-4\. Enter your credentials:
-
-&nbsp;  - \*\*Client ID\*\*: Paste your Spotify Client ID
-
-&nbsp;  - \*\*Client Secret\*\*: Paste your Spotify Client Secret
-
-&nbsp;  - \*\*Redirect URI\*\*: Leave as default `http://127.0.0.1:8888/callback`
-
-
-
-5\. First use will open browser for Spotify authorization (one-time setup)
-
-
-
-\*\*Requirements\*\*: Spotify Premium account and an active device (desktop app, mobile, web player)
-
-
-
-\## Voice Commands
-
-
-
-\### Playing Music
-
-
+### Finding Prices
 
 ```
-
-"Play Bohemian Rhapsody"          # Track search
-
-"Play Abbey Road album"           # Album
-
-"Play Queen"                      # Artist (shuffled)
-
-"Play Queen's top tracks"         # Top 10 hits
-
-"Play workout playlist"           # Playlists
-
-"Play Liked Songs"                # Your library
-
+"Find best gold buy nearby"
+"Best sell for painite within 50 light years"
+"Where can I sell Azure Milk?"
+"Cheapest tritium at fleet carriers"
 ```
 
-
-
-\### Playback Control
-
-
+### Trade Routes
 
 ```
-
-"Pause" / "Resume" / "Stop"
-
-"Next" / "Previous" / "Restart"
-
-"Seek to 2:30"
-
-"Volume up" / "Volume down" / "Set volume to 50" / "Mute"
-
-"Shuffle on" / "Shuffle off"
-
-"Repeat track" / "Repeat playlist" / "Repeat off"
-
+"Show profitable trades from here"
+"Best single-hop trade now"
+"Fill my remaining cargo with high-profit goods"
+"Circular route for rare goods"
 ```
 
-
-
-\### Library
-
-
+### Services
 
 ```
-
-"What's playing?"
-
-"Save this track"
-
-"Remove this track"
-
+"Nearest station with large pad"
+"Safe place to clear bounties"
+"Find Interstellar Factors in Anarchy systems"
+"Where can I find outfitting?"
 ```
 
-
-
-\### Bindings
-
-
+### Market Analysis
 
 ```
-
-"Bind this to workout intro"      # Bind current track
-
-"Workout intro"                   # Play bound track
-
-"List bindings"
-
-"Unbind workout intro"
-
-"Unbind all"
-
+"What does this system export?"
+"Show carrier markets selling gold"
+"List stations within 20 light years"
+"System coordinates for Shinrarta Dezhra"
 ```
 
-
-
-\### Performance
-
-
+### Rare Goods
 
 ```
-
-"Show Covasify cache stats"
-
+"List rare goods within 100 light years"
+"Where can I buy Lavian Brandy?"
+"Show rare goods at planetary stations"
 ```
 
+## Available Commands (38 Actions)
 
+### Price Searches & Market Data
+- **Best Buy Galaxy-Wide** - Find absolute best buy prices anywhere
+- **Best Sell Galaxy-Wide** - Find absolute best sell prices anywhere
+- **Best Buy Nearby** - Find best buy within radius (up to 1000 results)
+- **Best Sell Nearby** - Find best sell within radius (up to 1000 results)
+- **Commodity Price Comparison** - Compare prices across stations
+- **Profit Margin Calculator** - Calculate buy→sell profits
+- **Fleet Carrier Markets** - Search carrier-specific markets
+- **System Exports** - What a system sells (exports)
+- **System Imports** - What a system buys (imports)
+- **Station Market Snapshot** - Full commodity list for a station
+- **System All Commodities** - Every commodity available in system
+- **Station Commodities** - Specific station's commodity list
 
-\## Troubleshooting
+### Station & System Information
+- **List Stations** - All stations in a system
+- **Find Station** - Search for specific station
+- **List Large Ports** - Stations with large landing pads
+- **List Outposts** - Small/medium pad stations
+- **List Settlements** - Planetary surface bases
+- **List Megaships** - Dockable megaships
+- **List Fleet Carriers** - Player-owned carriers
+- **System Info** - Coordinates, allegiance, economy, security
+- **Nearby Systems** - Systems within radius (up to 1000)
+- **Distance Calculator** - Light years between systems
+- **System Markets** - All market stations in system
 
+### Services & Facilities
+- **Find Service** - Locate nearest station with service (market, outfitting, shipyard, etc.)
+- **Safe Interstellar Factors** - Find bounty clearance in Anarchy/Low security (avoid scans)
 
+### Trade Route Planning
+- **Best Trade From Here** - Optimal single-hop trade from current location
+- **Trade Route A→B** - Best commodity for specific route
+- **Nearby Profitable Trades** - All good trades within radius
+- **Optimal Trade Now** - Best trade considering ship/cargo/credits (Journal-aware)
+- **Trade Within Jump Range** - Only show reachable destinations (Journal-aware)
+- **Fill Remaining Cargo** - Optimize partial cargo loads (Journal-aware)
+- **Circular Route** - Round-trip trading (return to start)
+- **Multi-Commodity Chain** - Complex multi-stop routes
+- **Max Profit Per Hour** - Time-optimized route planning
 
-\*\*"No active Spotify devices found"\*\*
+### Rare Goods Discovery
+- **List Rare Goods** - All rare goods within radius with stations and allocations
 
-\- Open Spotify on any device and start playing something first
+### System Utilities
+- **Current Location** - Show current system from Journal
+- **Test Connection** - Verify plugin and API connectivity
+- **Cache Stats** - View performance metrics
 
+## Features
 
+### Smart Commodity Mapping
+- 100+ voice-friendly aliases ("Azure Milk" → bluemilk)
+- Handles natural variations automatically
+- Detects salvage items with helpful messages
+- 97% commodity coverage (386/397)
 
-\*\*"Not connected to Spotify"\*\*
+### Journal Integration
+- Auto-detects ship type and cargo capacity
+- Respects pad size limitations
+- Considers jump range constraints
+- Optimizes trades for current situation
 
-\- Check Settings UI has valid credentials entered
+### Advanced Search
+- 1000 nearby results (10x more than competitors)
+- Fleet carrier market tracking
+- Filter by pad size, planetary/orbital
+- Optional incompatible stations display
 
-\- Delete `.spotify\_cache` and restart COVAS to re-authenticate
+### Performance
+- 1-hour intelligent caching
+- Parallel API execution for rare goods
+- Thread-safe operations
+- Response times under 2 seconds
 
-\- Test with: "Test Covasify"
+## Troubleshooting
 
+**Plugin won't load**
+- Restart COVAS NEXT completely
+- Check COVAS logs for errors
 
+**"Commodity not found"**
+- Try variations: "gold" vs "Gold"
+- Check spelling with: "Test Covinance"
+- Some items are salvage-only (plugin will inform you)
 
-\*\*Binding doesn't play immediately\*\*
+**No results for trades**
+- Increase search radius (try 50-100 LY)
+- Check if system has market data
+- Verify commodity name is correct
 
-\- Say the phrase again if needed (plugin overrides COVAS safety protocols but may need retry on first attempt)
+**Stale data warnings**
+- Market data older than 30 days flagged
+- Normal for remote systems
+- Visit system to update market data
 
-
-
-\*\*Need to re-authorize\*\*
-
-\- Delete `.spotify\_cache` from plugin folder
-
-\- Restart COVAS - browser will open for re-auth on first command
-
-
-
-\## What's NOT Possible
-
-
-
-Due to Spotify API restrictions (November 2024):
-
-\- True radio/recommendations (API deprecated for new apps)
-
-\- Endless queue (API limitation - use artist/playlist playback instead)
-
-\- Related artists suggestions (API blocked)
-
-
-
-\## Files
-
-
+## Files
 
 ```
-
-Covasify/
-
-&nbsp; - Covasify.py              # Main plugin
-
-&nbsp; - manifest.json            # Plugin metadata
-
-&nbsp; - spotify\_bindings.json    # Your bindings (auto-created)
-
-&nbsp; - .spotify\_cache           # OAuth tokens (auto-created)
-
-&nbsp; - deps/                    # Bundled dependencies
-
+Covinance/
+├── Covinance.py           # Main plugin
+├── manifest.json          # Plugin metadata
+├── deps/                  # Bundled dependencies
+└── README.txt             # This file
 ```
 
+## Version History
 
+**v7.6** - Performance optimization, caching system, parallel execution  
+**v7.5** - Rare goods discovery, safe Interstellar Factors  
+**v7.4** - Commodity mapping (100 aliases), salvage detection  
+**v7.0** - Initial release
 
-\## Version History
+## Credits
 
-
-
-\*\*v2.0.0\*\* - Settings UI integration, credential management via COVAS NEXT menu  
-
-\*\*v1.0.0\*\* - Initial release
-
-
-
-\## Credits
-
-
-
-\*\*Author\*\*: D. Trintignant  
-
-\*\*COVAS NEXT\*\*: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/  
-
-\*\*Spotify API\*\*: Spotipy library
-
+**Author**: D. Trintignant  
+**Version**: 7.6  
+**COVAS NEXT**: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/  
+**API**: Ardent Insight (Elite Dangerous market data)  
+**Game**: Elite Dangerous (Frontier Developments)  
+**License**: MIT
