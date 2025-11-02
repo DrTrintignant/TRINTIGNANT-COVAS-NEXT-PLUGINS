@@ -1,0 +1,8 @@
+{
+  "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "name": "Covasify",
+  "version": "2.0.0",
+  "author": "D. Trintignant",
+  "description": "Spotify playback control with voice commands, track bindings, and smart caching for improved performance",
+  "entrypoint": "Covasify.py"
+}

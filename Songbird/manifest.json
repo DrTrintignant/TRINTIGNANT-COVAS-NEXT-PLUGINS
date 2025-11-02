@@ -1,0 +1,8 @@
+{
+    "guid": "babe1f36-bc38-4b62-8cda-80a7a68835f6",
+    "name": "Songbird",
+    "version": "3.0.0",
+    "author": "D. Trintignant",
+    "description": "Voice-controlled sound effects plugin with Freesound API integration, sound binding system, local cache management, and intelligent replay capabilities",
+    "entrypoint": "Songbird.py"
+}

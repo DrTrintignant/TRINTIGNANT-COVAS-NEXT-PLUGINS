@@ -1,0 +1,5 @@
+# Covasify Plugin Dependencies
+# These are bundled in deps/ folder - this file is for documentation
+
+spotipy>=2.23.0
+requests>=2.31.0

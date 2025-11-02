@@ -1,0 +1,348 @@
+{
+  "login granted": [
+    {
+      "sound_name": "Login 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 1.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 3.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 5",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 5.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 6",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 6.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 7",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 7.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "login denied": [
+    {
+      "sound_name": "Wrong 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "wrong": [
+    {
+      "sound_name": "Wrong 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "random login sound": [
+    {
+      "sound_name": "Login 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 1.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 3.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 5",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 5.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 6",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 6.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 7",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 7.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "loginsuccess": [
+    {
+      "sound_name": "Login 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 1.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 3.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 5",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 5.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 6",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 6.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 7",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 7.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "loginfailure": [
+    {
+      "sound_name": "Wrong 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "password success sound": [
+    {
+      "sound_name": "Login 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 1.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 3.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 5",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 5.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 6",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 6.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 7",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 7.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "password failure sound": [
+    {
+      "sound_name": "Wrong 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "closing session": [
+    {
+      "sound_name": "Shutdown 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Shutdown 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Shutdown 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Shutdown 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Shutdown 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Shutdown 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Shutdown 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Shutdown 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "omega 91": [
+    {
+      "sound_name": "Login 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 1.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 3.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 4",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 4.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 5",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 5.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 6",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 6.mp3",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Login 7",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Login 7.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ],
+  "wrong password": [
+    {
+      "sound_name": "Wrong 1",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 1.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 2",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 2.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    },
+    {
+      "sound_name": "Wrong 3",
+      "filepath": "C:\\Users\\feder\\AppData\\Roaming\\com.covas-next.ui\\plugins\\Songbird\\sounds\\Wrong 3.wav",
+      "description_used": "",
+      "username": "Local Cache"
+    }
+  ]
+}

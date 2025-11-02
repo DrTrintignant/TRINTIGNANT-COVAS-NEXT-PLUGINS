@@ -1,0 +1,8 @@
+{
+  "guid": "f7c3d8e2-9a4b-4f1c-b2d5-3e6a8c1f9b7d",
+  "name": "Covinance",
+  "version": "7.6.0",
+  "author": "D. Trintignant",
+  "description": "Advanced voice-controlled trading assistant for Elite Dangerous. 39 voice-activated actions for commodity trading, rare goods discovery, fleet carrier tracking, trade route optimization, and safe bounty clearing. Features parallel API execution (85% faster rare goods), smart caching (per-endpoint TTL), and real-time market intelligence via Ardent API.",
+  "entrypoint": "Covinance.py"
+}
